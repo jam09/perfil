@@ -16,7 +16,6 @@ $(window).load(function() {
     var inspos = $('#instagram').position();
     var dispos = $('#discord').position();
     var youpos = $('#youtube').position();
-
     $('i').css({
         position: 'absolute',
         zIndex: '1',
@@ -25,16 +24,16 @@ $(window).load(function() {
     });
 
     setTimeout(function() {
-        $('#instagram').animate({
-            top: inspos.top + 10,
-            left: inspos.left - 10
+        $('#youtube').animate({
+            top: youpos.top + 10,
+            left: youpos.left - 10
         }, 500);
     }, 250);
 
     setTimeout(function() {
-        $('#instagram').animate({
-            top: inspos.top,
-            left: insposs.left
+        $('#youtube').animate({
+            top: youpos.top,
+            left: youpos.left
         }, 250);
 
         $('#github').animate({
@@ -49,9 +48,9 @@ $(window).load(function() {
             left: githubPos.left
         }, 250);
 
-        $('#stack').animate({
-            top: stackPos.top + 10,
-            left: stackPos.left - 3
+        $('#discord').animate({
+            top: dispos.top + 10,
+            left: dispos.left - 3
         }, 500);
     }, 750);
 
@@ -61,16 +60,16 @@ $(window).load(function() {
             left: dispos.left
         }, 250);
 
-        $('#linkedin').animate({
-            top: linkedinPos.top + 10,
-            left: linkedinPos.left
+        $('#instagram').animate({
+            top: inspos.top + 10,
+            left: inspos.left
         }, 500);
     }, 1000);
 
     setTimeout(function() {
-        $('#youtube').animate({
-            top: youpos.top,
-            left: youpos.left
+        $('#instagram').animate({
+            top: inspos.top,
+            left: inspos.left
         }, 250);
 
         $('#code').animate({

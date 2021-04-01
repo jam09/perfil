@@ -1,6 +1,5 @@
 body {
     background-color: black;
-    text-align: center;
     z-index: -1;
 }
 
@@ -18,7 +17,7 @@ body {
 .social {
     text-align: center;
     font-size: 2.5em;
-    color: rgb(255, 255, 255);
+    color: #555;
     overflow: hidden;
 }
 
@@ -28,7 +27,7 @@ body {
 }
 
 .social i {
-    margin: 0.3em;
+    margin: 0em;
     cursor: pointer;
     transition: color 300ms ease, margin-top 300ms ease;
     transform: translateZ(0);
@@ -39,7 +38,7 @@ body {
 }
 
 .social i:hover {
-    margin-top: -1px;
+    margin-top: 3px;
 }
 
 .social i#twitter:hover {
